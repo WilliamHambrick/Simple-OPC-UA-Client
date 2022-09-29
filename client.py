@@ -10,7 +10,7 @@ async def task(loop):
     
     url = config["ServerURL"]
 
-    cnf = Config(config["username"], config["Password"], True) # Non Admin login (access to base tags)
+    cnf = Config(config["Username"], config["Password"], True) # Non Admin login (access to base tags)
 
     temp = OPCUA_Client(url, cnf)
     
