@@ -1,0 +1,11 @@
+{
+    "ServerURL": "opc.tcp://localhost:49320",
+    "Username": "user1",
+    "Password": "password123456",
+    "UseCertificates": true,
+    "CertificatePaths": {
+      "Certificate":"",
+      "ServerCertificate":"",
+      "PrivateCertificate":""
+    }
+  }
